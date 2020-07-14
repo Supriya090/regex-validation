@@ -115,21 +115,21 @@ input.invalid + p {
 /**** FOR EXTRA SMALL DEVICES ****/
 @media (max-width: 667px) {
   .regform {
-    width: 400px;
-    font-size: 15px;
+    width: 85%;
+    font-size: 0.8em;
   }
 
   .main {
-    width: 400px;
+    width: 85%;
   }
   .username {
     text-align: center;
-    margin-left: 120px;
+    margin-left: 32%;
   }
   #usrnam {
     top: 0px;
-    left: 15px;
-    width: 300px;
+    left: 7%;
+    width: 75%;
   }
   p {
     padding: 0px 20px 20px 20px;
