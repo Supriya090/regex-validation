@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="regform"><h1>Registration Form</h1></div>
+    <div class="main">
+      <form>
+        <h2 class="username">UserName</h2>
+        <input id="usrnam" type="text" name="username" placeholder="Username" />
+        <p>Username must be valid and contain 5 - 12 characters</p>
+        <h2 class="username eml top">Email Address</h2>
+        <input id="usrnam" type="text" name="email" placeholder="Email" />
+        <p>Email must be a valid address, e.g. me@mydomain.com</p>
+        <h2 class="username top">Password</h2>
+        <input
+          id="usrnam"
+          type="password"
+          name="password"
+          placeholder="Password"
+        />
+        <p>
+          Password must alphanumeric (@, _ and - are also allowed) and be 8 - 20
+          characters
+        </p>
+        <h2 class="username eml top">Mobile&nbspNumber</h2>
+        <input
+          id="usrnam"
+          type="text"
+          name="phone"
+          placeholder="Mobile Number"
+        />
+        <p>Mobile Number must be valid(10 characters in Nepal)</p>
+        <h2 class="username ps top">Profile Slug</h2>
+        <input id="usrnam" type="text" name="slug" placeholder="Profile Slug" />
+        <p>
+          Slug must contain only lowercase letters, numbers and hyphens and be 8
+          - 20 characters
+        </p>
+      </form>
+    </div>
+
+    <script type="text/javascript" src="validation.js"></script>
+  </body>
+</html>
